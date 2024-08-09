@@ -24,7 +24,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Create a resource group in Microsoft Azure.
 - Create two virtual machines in Azure.  One vm running Windows and the second vm running Linux. 
-- Step 3
+- Remote connect to Windows vitual machine and install Wireshark.
 - Step 4
 
 <h2>Actions and Observations</h2>
@@ -46,14 +46,16 @@ From the Microsoft Azure portal homepage I went into resouce groups and and crea
 
 </p>
 <p>
-Above I created two virtual machines in Azure.  One vm is running Windows and the second vm is running Linux.
+Above I created two virtual machines in Azure.  One vm is running Windows and the second vm is running Linux.  Only one virtual network was created for both VMs and subnets were created automatically.  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![Screenshot 2024-08-09 112225](https://github.com/user-attachments/assets/f4a21343-cde4-41dc-96f0-caa09b936609)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this next step I connected to Windows vm using Remote Desk top.  Once inside of vm1 I downloaded and installed wireshark. 
 </p>
 <br />
