@@ -23,7 +23,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Create a resource group in Microsoft Azure.
-- Step 2
+- Create two virtual machines in Azure.  One vm running Windows and the second vm running Linux. 
 - Step 3
 - Step 4
 
@@ -41,10 +41,12 @@ From the Microsoft Azure portal homepage I went into resouce groups and and crea
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![Screenshot 2024-08-09 110015](https://github.com/user-attachments/assets/534a90c1-bd27-4846-b164-e28e9e502cf4)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Above I created two virtual machines in Azure.  One vm is running Windows and the second vm is running Linux.
 </p>
 <br />
 
