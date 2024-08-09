@@ -17,12 +17,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
+- Windows 11
 - Ubuntu Server 20.04
 
 <h2>High-Level Steps</h2>
 
-- Step 1
+- Create a resource group in Microsoft Azure.
 - Step 2
 - Step 3
 - Step 4
@@ -30,10 +30,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/user-attachments/assets/7b6985fe-5078-4bc1-a459-12af59a01cb3)
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From the Microsoft Azure portal homepage I went into resouce groups and and created a new resource group for this lab. 
 </p>
 <br />
 
