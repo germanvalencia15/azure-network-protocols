@@ -25,7 +25,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Create a resource group in Microsoft Azure.
 - Create two virtual machines in Azure.  One vm running Windows and the second vm running Linux. 
 - Remote connect to Windows vitual machine and install Wireshark.
-- Step 4
+- Open Wireshark and filter for ICMP traffic. 
 
 <h2>Actions and Observations</h2>
 
