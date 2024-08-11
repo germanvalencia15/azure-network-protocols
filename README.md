@@ -52,10 +52,11 @@ Above I created two virtual machines in Azure.  One vm is running Windows and th
 
 <p>
 
-![Screenshot 2024-08-09 112225](https://github.com/user-attachments/assets/f4a21343-cde4-41dc-96f0-caa09b936609)
+![image](https://github.com/user-attachments/assets/976af53f-ca71-429e-abae-5991b373d5df)
+
 
 </p>
 <p>
-In this next step I connected to Windows vm using Remote Desk top.  Once inside of vm1 I downloaded and installed wireshark. 
+In this next step I opened Remote Desktop, connected to the windows virtual machine using it's public ip address. After gaining access to vm1 I downloaded and installed wireshark.  
 </p>
 <br />
