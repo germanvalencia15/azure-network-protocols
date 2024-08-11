@@ -29,6 +29,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Obtain Ubuntu virtual machine private IP address and ping from Windows virtual machine.
 - From Windows virtual machine ping www.google.com and observe traffic in Wireshark.
 - Initiate perpetual ping from Windows virtual machine to Linux vm.
+-  
 
 <h2>Actions and Observations</h2>
 
