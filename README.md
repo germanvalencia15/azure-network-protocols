@@ -29,7 +29,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Obtain Ubuntu virtual machine private IP address and ping from Windows virtual machine.
 - From Windows virtual machine ping www.google.com and observe traffic in Wireshark.
 - Initiate perpetual ping from Windows virtual machine to Linux vm.
--  
+- Open Network Security Group for Linux vm and disable inbound ICMP traffic. 
 
 <h2>Actions and Observations</h2>
 
@@ -83,3 +83,12 @@ Again in in the Windows virtual machine using Wireshark and PowerShell I was abl
 
 
 Initiated perpetual ping from Windows vm to Linux vm.
+
+
+
+![image](https://github.com/user-attachments/assets/1cfaad54-bc8c-4739-a136-663a6d4dcf1e)
+
+
+Back in Azure I went into network security groups and added an inbound security rule for Linux vm and denied acces to all ICMP traffice.  You can see in the image abouve that traffic timed out.
+
+
