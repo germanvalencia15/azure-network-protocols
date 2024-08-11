@@ -31,7 +31,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Initiate perpetual ping from Windows virtual machine to Linux vm.
 - Open Network Security Group for Linux vm and disable inbound ICMP traffic.
 - Filter traffic by SSH only in WireShark
-- Filter WireShark traffice by DHCP only. 
+- Filter WireShark traffice by DHCP only.
+- Filter traffic DNS and observe
 
 <h2>Actions and Observations</h2>
 
@@ -112,4 +113,11 @@ In this part of the lab I filtered traffic to SSH only in WireShark.  In Windows
 
 
 Filterd traffic by DHCP only and issued a new IP address using the ipcongfig/command line.
+
+
+![image](https://github.com/user-attachments/assets/b13b97c1-cf51-4b04-ad3a-b35a9f08f3e0)
+
+
+In WireShark traffic was filtered by DNS only.  Using command line nslookup I was able to see google's IP address. 
+
 
