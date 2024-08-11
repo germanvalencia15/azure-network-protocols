@@ -18,14 +18,17 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Operating Systems Used </h2>
 
 - Windows 11
-- Ubuntu Server 20.04
+- Ubuntu Server 24.04
 
 <h2>High-Level Steps</h2>
 
 - Create a resource group in Microsoft Azure.
 - Create two virtual machines in Azure.  One vm running Windows and the second vm running Linux. 
 - Remote connect to Windows vitual machine and install Wireshark.
-- Open Wireshark and filter for ICMP traffic. 
+- Open Wireshark and filter for ICMP traffic.
+- Obtain Ubuntu virtual machine private IP address and ping from Windows virtual machine.
+- From Windows virtual machine ping www.google.com and observe traffic in Wireshark.
+- 
 
 <h2>Actions and Observations</h2>
 
@@ -66,4 +69,12 @@ In this next step I opened Remote Desktop, connected to the windows virtual mach
 
 
 In the image above from vm1 I opened Wireshark, filtered ICMP traffic only.  Then opened PowerShell and pinged Linux virtual machine 2. 
+
+
+
+![image](https://github.com/user-attachments/assets/53268690-51ce-4df6-93ca-4ddf8adc7ef0)
+
+
+Again in in the Windows virtual machine using Wireshark and PowerShell I was able to ping www.google.com and received a reponse.  You can see the traffic in Wireshark.  
+
 
