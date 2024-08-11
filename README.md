@@ -60,3 +60,10 @@ Above I created two virtual machines in Azure.  One vm is running Windows and th
 In this next step I opened Remote Desktop, connected to the windows virtual machine using it's public ip address. After gaining access to vm1 I downloaded and installed wireshark.  
 </p>
 <br />
+
+
+![image](https://github.com/user-attachments/assets/1f4c82d8-1e4d-4503-a2a6-aa0de9106396)
+
+
+In the image above from vm1 I opened Wireshark, filtered ICMP traffic only.  Then opened PowerShell and pinged Linux virtual machine 2. 
+
