@@ -28,7 +28,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Open Wireshark and filter for ICMP traffic.
 - Obtain Ubuntu virtual machine private IP address and ping from Windows virtual machine.
 - From Windows virtual machine ping www.google.com and observe traffic in Wireshark.
-- 
+- Initiate perpetual ping from Windows virtual machine to Linux vm.
 
 <h2>Actions and Observations</h2>
 
@@ -78,3 +78,7 @@ In the image above from vm1 I opened Wireshark, filtered ICMP traffic only.  The
 Again in in the Windows virtual machine using Wireshark and PowerShell I was able to ping www.google.com and received a reponse.  You can see the traffic in Wireshark.  
 
 
+![image](https://github.com/user-attachments/assets/115d802c-1abd-4d5b-8c63-718b2e665698)
+
+
+Initiated perpetual ping from Windows vm to Linux vm.
