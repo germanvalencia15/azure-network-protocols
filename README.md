@@ -33,6 +33,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Filter traffic by SSH only in WireShark
 - Filter WireShark traffice by DHCP only.
 - Filter traffic DNS and observe
+- Filter traffic RDP and observe
 
 <h2>Actions and Observations</h2>
 
@@ -121,3 +122,7 @@ Filterd traffic by DHCP only and issued a new IP address using the ipcongfig/com
 In WireShark traffic was filtered by DNS only.  Using command line nslookup I was able to see google's IP address. 
 
 
+![image](https://github.com/user-attachments/assets/8879be65-b58f-4c4f-9a4d-dbeecdfe4522)
+
+
+In this final image I filtered RDP traffic on WireShark using command tcp.port == 3389,
