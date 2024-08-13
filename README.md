@@ -30,10 +30,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - From Windows virtual machine ping www.google.com and observe traffic in Wireshark.
 - Initiate perpetual ping from Windows virtual machine to Linux vm.
 - Open Network Security Group for Linux vm and disable inbound ICMP traffic.
-- Filter traffic by SSH only in WireShark
-- Filter WireShark traffice by DHCP only.
-- Filter traffic DNS and observe
-- Filter traffic RDP and observe
+- Filter traffic by SSH only.
+- Filter traffic by DHCP only.
+- Filter traffic by DNS and observe.
+- Filter traffic by RDP and observe.
 
 <h2>Actions and Observations</h2>
 
