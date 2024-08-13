@@ -93,7 +93,7 @@ Initiated perpetual ping from Windows vm to Linux vm.
 ![image](https://github.com/user-attachments/assets/1cfaad54-bc8c-4739-a136-663a6d4dcf1e)
 
 
-Back in Azure I went into network security groups and added an inbound security rule for Linux vm and denied acces to all ICMP traffice.  You can see in the image abouve that traffic timed out.
+Back in Azure I went into network security groups and added an inbound security rule for Linux vm and denied acces to all ICMP traffic.  You can see in the image above that traffic timed out.
 
 
 ![image](https://github.com/user-attachments/assets/a9492487-bb92-4c9a-a793-47b9cae12660)
